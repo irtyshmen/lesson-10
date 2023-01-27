@@ -32,4 +32,20 @@ input[type=email], input[type=text] {
   padding: 0;
 }
 
+.btn.second.active, .btn.main.active {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+.btn.main.active {
+  background-color: #ff3d00;
+  color: #ff3d00;
+}
+
+.btn.second.active {
+  background-color: #0085ff;
+  color: #0085ff;
+}
+
 /*# sourceMappingURL=style.css.map */

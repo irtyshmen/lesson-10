@@ -1,1 +1,28 @@
 @import 'reset';
+
+$main: #ff3d00;
+$second: #0085ff;
+$black: #202020;
+$stroke: #e3e3e3;
+$placeholder: #808080;
+$back: #f7f7f7;
+
+%btn{
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0;
+}
+
+@mixin activeBtn($color){
+  @extend %btn;
+  background-color: $color;
+  color: $color;
+}
+
+.btn.main.active{
+  @include activeBtn($main)
+}
+
+.btn.second.active{
+  @include activeBtn($second)
+}

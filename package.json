@@ -1,7 +1,6 @@
 {
   "name": "lesson-10",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "node-sass": "sass -w assets/scss/:assets/css"
@@ -13,5 +12,14 @@
     "node": "^18.13.0",
     "node-sass": "^8.0.0",
     "sass": "^1.57.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irtyshmen/lesson-10.git"
+  },
+  "bugs": {
+    "url": "https://github.com/irtyshmen/lesson-10/issues"
+  },
+  "homepage": "https://github.com/irtyshmen/lesson-10#readme",
+  "description": ""
 }
